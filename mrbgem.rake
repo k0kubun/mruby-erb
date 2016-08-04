@@ -4,5 +4,5 @@ MRuby::Gem::Specification.new('mruby-erb') do |spec|
   spec.summary = "Direct ERB port from CRuby"
 
   spec.add_dependency "mruby-eval", core: "mruby-eval"
-  spec.add_dependency "mruby-regexp-pcre"
+  spec.add_dependency "mruby-onig-regexp"
 end
